@@ -1,5 +1,3 @@
-#NEED TO MAKE IT TO A CLASS!
-
 This is an implementation of the [Tabu Search](https://en.wikipedia.org/wiki/Tabu_search) algorithm for the [Boolean Satisfiability problem](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem) (more precisely [max-sat](https://en.wikipedia.org/wiki/Maximum_satisfiability_problem)).
 
 The principle is to move from a solution *S* to the best of it's neighboors, while this later is not **tabu**.
@@ -28,3 +26,12 @@ from tabu import readCnf, ts
 clauses,nbL=readCnf(filePath)
 ts(clauses,nbL,len(clauses))
 ```
+
+***
+
+###License:
+This is published under GNU GPL Lisence.
+For more informations about the terms: https://www.gnu.org/licenses/gpl.html
+
+![Image Alt](https://www.gnu.org/graphics/gplv3-127x51.png)
+
