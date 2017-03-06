@@ -27,6 +27,9 @@ clauses,nbL=readCnf(filePath)
 ts(clauses,nbL,len(clauses))
 ```
 
+###Datasets
+You can download benchmarks from [http://www.cs.ubc.ca/~hoos/SATLIB/benchm.html](http://www.cs.ubc.ca/~hoos/SATLIB/benchm.html).
+
 ***
 
 ###License:
